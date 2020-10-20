@@ -15,8 +15,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 1005
-  skip: true  # [win32]
+  number: 1006
   rpaths:
     - lib/R/lib/
     - lib/
@@ -45,7 +44,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=nleqslv
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Solve a system of nonlinear equations using a Broyden or a Newton method with a choice
     of global strategies such as line search and trust region. There are options for
     using a numerical or user supplied Jacobian, for specifying a banded numerical Jacobian
@@ -56,9 +55,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
