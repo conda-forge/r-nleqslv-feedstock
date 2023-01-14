@@ -1,4 +1,4 @@
-{% set version = "3.3.3" %}
+{% set version = "3.3.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/nleqslv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/nleqslv/nleqslv_{{ version }}.tar.gz
-  sha256: 2e46dfce95ddfd7ed5208413ee41f6bdf1ae18414fb1d0c146d9da3af12ac633
+  sha256: 2783e7525bcd155dd8cedf5a41b7db65cd1fa0e095cd937371448316f3930fcf
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
