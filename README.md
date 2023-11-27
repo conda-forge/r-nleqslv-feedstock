@@ -3,6 +3,7 @@ About r-nleqslv-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nleqslv-feedstock/blob/main/LICENSE.txt)
 
+
 About r-nleqslv
 ---------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=nleqslv
 Package license: GPL-2.0-or-later
 
 Summary: Solve a system of nonlinear equations using a Broyden or a Newton method with a choice of global strategies such as line search and trust region. There are options for using a numerical or user supplied Jacobian, for specifying a banded numerical Jacobian and for allowing a singular or ill-conditioned Jacobian.
+
 About r-nleqslv
 ---------------
 
@@ -188,7 +190,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
