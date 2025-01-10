@@ -13,7 +13,7 @@ source:
   sha256: 1298172d2fe67d8d6b742ce7e792f6b897f081da5c94d34f14970ab531f04b3a
 
 build:
-  number: 1
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -31,6 +31,7 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
   run:
@@ -45,7 +46,6 @@ about:
   home: https://CRAN.R-project.org/package=nleqslv
   license: GPL-2.0-or-later
   summary: Solve a system of nonlinear equations using a Broyden or a Newton method with a choice of global strategies such as line search and trust region. There are options for using a numerical or user supplied Jacobian, for specifying a banded numerical Jacobian and for allowing a singular or ill-conditioned Jacobian.
-  license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
