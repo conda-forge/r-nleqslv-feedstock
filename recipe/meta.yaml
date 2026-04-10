@@ -1,4 +1,4 @@
-{% set version = "3.3.6" %}
+{% set version = "3.3.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/nleqslv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/nleqslv/nleqslv_{{ version }}.tar.gz
-  sha256: e20dc3928c2516fdca8d8c66cf666846ef9fed485fafe440f28ec49193b27894
+  sha256: 6f29ad65049338006a52e457dbbeba529813b6dd952c4d774ef8b9c42193ef75
 
 build:
   number: 0
